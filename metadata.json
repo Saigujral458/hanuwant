@@ -1,0 +1,6 @@
+{
+  "name": "Hanuwant Power System Co.",
+  "description": "Bold and industrial homepage for Hanuwant Power System Co. (HPS) - specializing in diesel generator rentals, sales, purchase, and comprehensive servicing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
