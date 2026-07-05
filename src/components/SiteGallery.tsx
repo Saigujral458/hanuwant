@@ -7,6 +7,13 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Eye, MapPin, Tag, X, Flame } from "lucide-react";
 
+import cumminsGen from "../assets/images/cummins_generator_1780219713515.png";
+import silentRedWhite from "../assets/images/silent_red_white_1780228740637.png";
+import trailerGen from "../assets/images/trailer_gen_logo_1783249532655.png";
+import redLitGen from "../assets/images/red_lit_generator_1780219748044.png";
+import silentBlackRed from "../assets/images/silent_black_red_1780228759679.png";
+import silentSilverRed from "../assets/images/silent_silver_red_1780228778764.png";
+
 interface GalleryItem {
   id: string;
   category: "all" | "Heavy_Industry" | "Hospital_Power" | "Infrastructure" | "Exhibition_Events";
@@ -36,7 +43,7 @@ export default function SiteGallery() {
       title: "500 KVA Dual Sync Installation",
       tag: "Metal Smelting Plant",
       location: "Sahibabad Industrial Area, Ghaziabad",
-      imgUrl: "https://picsum.photos/seed/industrial-gen/800/600",
+      imgUrl: cumminsGen,
       specs: "2x 500 KVA Cummins with AMF panel synchronization"
     },
     {
@@ -45,7 +52,7 @@ export default function SiteGallery() {
       title: "125 KVA Emergency Backup Link",
       tag: "Super Speciality Hospital",
       location: "Sector-2, Rajender Nagar, Sahibabad",
-      imgUrl: "https://picsum.photos/seed/hospital-power/800/600",
+      imgUrl: silentRedWhite,
       specs: "Kirloskar Green 125 KVA silent canopy, <4 sec automated transition"
     },
     {
@@ -54,7 +61,7 @@ export default function SiteGallery() {
       title: "Mobile 62.5 KVA Fleet Deployment",
       tag: "Highway Flyover Construction",
       location: "Noida Sector-62 Express Link",
-      imgUrl: "https://picsum.photos/seed/construction-gen/800/600",
+      imgUrl: trailerGen,
       specs: "Mahindra Powerol 62.5 KVA mounted on dual-axle high clearance trailer"
     },
     {
@@ -63,7 +70,7 @@ export default function SiteGallery() {
       title: "250 KVA Super Silent Wedding Array",
       tag: "Grand Banquet Luxury Hall",
       location: "Ghaziabad Bypass Road Gentry",
-      imgUrl: "https://picsum.photos/seed/wedding-stage/800/600",
+      imgUrl: redLitGen,
       specs: "Ashok Leyland 250 KVA containerized sound-proof canopy"
     },
     {
@@ -72,7 +79,7 @@ export default function SiteGallery() {
       title: "1000 KVA High Voltage Refinery Hook",
       tag: "Chemical Processing Block",
       location: "Loni Industrial Complex",
-      imgUrl: "https://picsum.photos/seed/refinery-power/800/600",
+      imgUrl: silentBlackRed,
       specs: "Cummins Heavy Duty V-12, bespoke acoustic shelter layout"
     },
     {
@@ -81,7 +88,7 @@ export default function SiteGallery() {
       title: "250 KVA Oxygen Generator Plant Backup",
       tag: "Central Diagnostic Wing",
       location: "Sanjay Nagar Govt Clinic, Ghaziabad",
-      imgUrl: "https://picsum.photos/seed/oxygen-gen/800/600",
+      imgUrl: silentSilverRed,
       specs: "Ashok Leyland LEYPOWER 250 KVA prime backup unit"
     }
   ];
