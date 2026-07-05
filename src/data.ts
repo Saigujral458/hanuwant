@@ -110,7 +110,7 @@ export const INDUSTRIES: IndustryServed[] = [
 
 export const PRODUCTS: GeneratorProduct[] = [
   {
-    id: "hps-powerol-15",
+    id: "hps-mahindra-15",
     name: "Mahindra Powerol 15 KVA Silent",
     kva: 15,
     brand: "Mahindra Powerol",
@@ -121,8 +121,53 @@ export const PRODUCTS: GeneratorProduct[] = [
     noiseLevel: "< 75 dBA at 1m (Acoustic Canopy)",
     isReadyForRent: true,
     isReadyForSale: true,
-    description: "Perfect low-noise single phase system tailored for high-end residential, private clinics, bank ATMs, and local stores in Ghaziabad.",
+    description: "Perfect low-noise single phase system tailored for high-end residential, private clinics, bank ATMs, and local stores.",
     applications: ["Bank ATMs", "Retail Shops", "Small Offices", "Private Residences"]
+  },
+  {
+    id: "hps-kirloskar-25",
+    name: "Kirloskar Green 25 KVA Silent",
+    kva: 25,
+    brand: "Kirloskar Green",
+    engineBrand: "Kirloskar Engine",
+    fuelType: "Diesel",
+    fuelConsumption: "4.5 Liters/hour",
+    phase: "Three",
+    noiseLevel: "< 75 dBA at 1m (CPCB Compliant)",
+    isReadyForRent: true,
+    isReadyForSale: true,
+    description: "Highly robust low-noise three-phase system designed for small clinics, offices, and mid-sized retail outlets.",
+    applications: ["Small Clinics", "Restaurants", "Showrooms", "Residential Societies"]
+  },
+  {
+    id: "hps-leypower-40",
+    name: "Ashok Leyland LEYPOWER 40 KVA Silent",
+    kva: 40,
+    brand: "Ashok Leyland LEYPOWER",
+    engineBrand: "Ashok Leyland Engine",
+    fuelType: "Diesel",
+    fuelConsumption: "7.2 Liters/hour",
+    phase: "Three",
+    noiseLevel: "< 75 dBA at 1m",
+    isReadyForRent: true,
+    isReadyForSale: true,
+    description: "Extremely reliable mid-tier power unit built for commercial offices, schools, and local utility support.",
+    applications: ["Corporate Offices", "Medium Shops", "Schools", "Agriculture Farms"]
+  },
+  {
+    id: "hps-kirloskar-58",
+    name: "Kirloskar Green 58.5 KVA Silent",
+    kva: 58.5,
+    brand: "Kirloskar Green",
+    engineBrand: "Kirloskar Engine",
+    fuelType: "Diesel",
+    fuelConsumption: "10.5 Liters/hour",
+    phase: "Three",
+    noiseLevel: "< 75 dBA at 1m",
+    isReadyForRent: true,
+    isReadyForSale: true,
+    description: "Excellent fuel efficiency and reliable backup solution for community blocks, mid-scale healthcare facilities, and malls.",
+    applications: ["Hospitals", "Mini Malls", "Cold Storages", "Construction Sites"]
   },
   {
     id: "hps-cummins-62",
@@ -140,6 +185,21 @@ export const PRODUCTS: GeneratorProduct[] = [
     applications: ["Multi-story Offices", "Construction Sites", "Medium Scale Factories", "Banquet Halls"]
   },
   {
+    id: "hps-mahindra-82",
+    name: "Mahindra Powerol 82.5 KVA Silent",
+    kva: 82.5,
+    brand: "Mahindra Powerol",
+    engineBrand: "Mahindra Engine",
+    fuelType: "Diesel",
+    fuelConsumption: "14.8 Liters/hour",
+    phase: "Three",
+    noiseLevel: "< 75 dBA at 1m",
+    isReadyForRent: true,
+    isReadyForSale: true,
+    description: "State-of-the-art power solution for heavy commercial showrooms, marriage halls, and corporate offices.",
+    applications: ["Large Showrooms", "Commercial Offices", "Data Rooms", "Marriage Banquets"]
+  },
+  {
     id: "hps-kirloskar-125",
     name: "Kirloskar Green 125 KVA Intelligent Silent",
     kva: 125,
@@ -148,15 +208,30 @@ export const PRODUCTS: GeneratorProduct[] = [
     fuelType: "Diesel",
     fuelConsumption: "21.5 Liters/hour",
     phase: "Three",
-    noiseLevel: "< 75 dBA at 1m (Intelligent Acoustic Room)",
+    noiseLevel: "< 75 dBA at 1m",
     isReadyForRent: true,
     isReadyForSale: true,
     description: "Fully electronic governor engine built with active remote monitoring systems, ensuring high power efficiency with smart load distributions.",
     applications: ["Supermarkets", "Corporate Hubs", "Community Hospitals", "Cold Storage Units"]
   },
   {
+    id: "hps-leypower-200",
+    name: "Ashok Leyland LEYPOWER 200 KVA Silent",
+    kva: 200,
+    brand: "Ashok Leyland LEYPOWER",
+    engineBrand: "Ashok Leyland Engine",
+    fuelType: "Diesel",
+    fuelConsumption: "34.0 Liters/hour",
+    phase: "Three",
+    noiseLevel: "< 75 dBA at 1m",
+    isReadyForRent: true,
+    isReadyForSale: true,
+    description: "High performance heavy industrial power generator built to serve manufacturing sites, infrastructure grids, and massive buildings.",
+    applications: ["Manufacturing Units", "High-Rise Buildings", "Educational Institutes", "Infrastructure Projects"]
+  },
+  {
     id: "hps-leypower-250",
-    name: "Ashok Leyland LEYPOWER 250 KVA",
+    name: "Ashok Leyland LEYPOWER 250 KVA Silent",
     kva: 250,
     brand: "Ashok Leyland LEYPOWER",
     engineBrand: "Ashok Leyland Engine",
@@ -170,8 +245,23 @@ export const PRODUCTS: GeneratorProduct[] = [
     applications: ["Heavy Manufacturing", "Complex Construction Projects", "Data Infrastructure Sites", "Large Hospitals"]
   },
   {
+    id: "hps-cummins-380",
+    name: "Cummins Power Generation 380 KVA",
+    kva: 380,
+    brand: "Cummins Power Generation",
+    engineBrand: "Cummins Engine",
+    fuelType: "Diesel",
+    fuelConsumption: "65.5 Liters/hour",
+    phase: "Three",
+    noiseLevel: "< 75 dBA at 1m",
+    isReadyForRent: true,
+    isReadyForSale: true,
+    description: "Designed for intensive industrial support, chemical operations, large scale data centers, and heavy infrastructure projects.",
+    applications: ["Pharma Plants", "Data Centers", "Process Industries", "Mega Infrastructure"]
+  },
+  {
     id: "hps-cummins-500",
-    name: "Cummins Power Generation 500 KVA",
+    name: "Cummins Power Generation 500 KVA Silent",
     kva: 500,
     brand: "Cummins Power Generation",
     engineBrand: "Cummins VTA28 Engine",
@@ -183,6 +273,36 @@ export const PRODUCTS: GeneratorProduct[] = [
     isReadyForSale: true,
     description: "Heavy-duty V-12 power block offering massive power-to-weight margins, electronic diagnostic system management, and maximum fuel saving margins.",
     applications: ["Industrial Plants", "Large-scale IT Hubs", "Mega Events", "Steel and Cast Rolling Mills"]
+  },
+  {
+    id: "hps-kirloskar-750",
+    name: "Kirloskar Green 750 KVA Silent",
+    kva: 750,
+    brand: "Kirloskar Green",
+    engineBrand: "Kirloskar Engine",
+    fuelType: "Diesel",
+    fuelConsumption: "128.0 Liters/hour",
+    phase: "Three",
+    noiseLevel: "< 75 dBA at 1m",
+    isReadyForRent: true,
+    isReadyForSale: true,
+    description: "Massive prime power system engineered to run critical factory grids, large smelters, and heavy continuous load centers.",
+    applications: ["Large Steel Smelters", "Cement Factories", "Large Data Centers", "Hospitals Grid"]
+  },
+  {
+    id: "hps-cummins-1000",
+    name: "Cummins Power Generation 1000 KVA",
+    kva: 1000,
+    brand: "Cummins Power Generation",
+    engineBrand: "Cummins Engine",
+    fuelType: "Diesel",
+    fuelConsumption: "162.0 Liters/hour",
+    phase: "Three",
+    noiseLevel: "< 75 dBA at 1m",
+    isReadyForRent: true,
+    isReadyForSale: true,
+    description: "Premium heavy-duty system built for railway substations, mega data complexes, and massive oil refineries.",
+    applications: ["Mega Infrastructure", "Railway Substations", "Major Refineries", "Data Centers"]
   },
   {
     id: "hps-cummins-1250",
@@ -198,6 +318,36 @@ export const PRODUCTS: GeneratorProduct[] = [
     isReadyForSale: true,
     description: "A colossal workhorse powerhouse designed for constant power stations, data center infrastructure blocks, and large chemical refineries.",
     applications: ["Data Centers", "Mining Outposts", "Refineries", "Main Metro Substations"]
+  },
+  {
+    id: "hps-cummins-1500",
+    name: "Cummins High Mega 1500 KVA",
+    kva: 1500,
+    brand: "Cummins Power Generation",
+    engineBrand: "Cummins KTA50-G8 Engine",
+    fuelType: "Diesel",
+    fuelConsumption: "235 Liters/hour",
+    phase: "Three",
+    noiseLevel: "Engineered Enclosure System < 75 dBA",
+    isReadyForRent: true,
+    isReadyForSale: true,
+    description: "High capacity mega generator engineered to supply continuous backup power grids for critical processing hubs and large server farms.",
+    applications: ["Mega Data Centers", "Power Stations", "Industrial Complexes", "Large Scale Infrastructure"]
+  },
+  {
+    id: "hps-cummins-2000",
+    name: "Cummins High Mega 2000 KVA",
+    kva: 2000,
+    brand: "Cummins Power Generation",
+    engineBrand: "Cummins Engine",
+    fuelType: "Diesel",
+    fuelConsumption: "310 Liters/hour",
+    phase: "Three",
+    noiseLevel: "Engineered Enclosure System < 75 dBA",
+    isReadyForRent: true,
+    isReadyForSale: true,
+    description: "The ultimate power grid powerhouse for national projects, heavy petrochemical complexes, and massive data servers.",
+    applications: ["Grid Power Backup", "Petrochemical Plants", "National Level Infrastructure Projects", "Massive Data Centers"]
   }
 ];
 

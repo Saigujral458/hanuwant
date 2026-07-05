@@ -137,13 +137,21 @@ Please get back to me. Thank you!`;
                         id="quote-kva-capacity"
                       >
                         <option value="15">15 KVA (Residential / Small Store)</option>
-                        <option value="30">30 KVA (Medium Office / Small Clinic)</option>
+                        <option value="25">25 KVA (Small Clinic / Restaurant)</option>
+                        <option value="40">40 KVA (Medium Office / School)</option>
+                        <option value="58.5">58.5 KVA (Mini Mall / Cold Storage)</option>
                         <option value="62.5">62.5 KVA (Commercial / Event Stage)</option>
-                        <option value="125">125 KVA (Supermarket / IT Hub)</option>
+                        <option value="82.5">82.5 KVA (Large Showroom / Banquet)</option>
+                        <option value="125">125 KVA (Supermarket / Hospital)</option>
+                        <option value="200">200 KVA (Manufacturing / High-Rise)</option>
                         <option value="250">250 KVA (Large Factory / Construction)</option>
+                        <option value="380">380 KVA (Pharma Plant / Mega Infrastructure)</option>
                         <option value="500">500 KVA (Mega Industrial / Hotels)</option>
+                        <option value="750">750 KVA (Steel Smelter / Large Data Center)</option>
                         <option value="1000">1000 KVA (Data Center / Substation)</option>
-                        <option value="2000">2000 KVA (Refineries / Constant Power)</option>
+                        <option value="1250">1250 KVA (Constant Power / Mining Outpost)</option>
+                        <option value="1500">1500 KVA (Power Station / Mega Complexes)</option>
+                        <option value="2000">2000 KVA (Refineries / Massive Grid)</option>
                       </select>
                     </div>
 
