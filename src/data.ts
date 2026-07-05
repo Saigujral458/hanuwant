@@ -207,7 +207,7 @@ export const BLOGS: BlogArticle[] = [
     title: "How to Choose the Right KVA Rating for Your Industrial Building",
     excerpt: "Calculating active utility load is crucial. Discover the formula to size your backup diesel generator perfectly without over-paying.",
     content: "Selecting the correct KVA rating prevents severe operational hazards. A generator too small will experience emergency thermal trips and exhaust loading, while an oversized genset will experience wet stacking (unburnt fuel in exhausting ducts). Always calculate your starting surge current (especially for heavy motors, air conditioning compressors, and air dryers) which can be 3x to 5x higher than running current. Sum up the base rating of your essential loads, factor in a safety limit of 20%, and match with a robust CPCB-IV compliant genset from Hanuwant Power System Co. for flawless performance.",
-    author: "Rakesh Kumar (Sr. Operations Manager at HPS)",
+    author: "Nikhil Garg",
     publishDate: "May 12, 2026",
     readTime: "5 min read",
     category: "Rental Guide"
@@ -217,7 +217,7 @@ export const BLOGS: BlogArticle[] = [
     title: "Diesel Generator Preventative Maintenance & AMC Checklists",
     excerpt: "Avoid sudden blackouts. Find out the key weekly, monthly, and quarterly maintenance components to keep your genset ready.",
     content: "A diesel engine is only as dependable as its fuel system, lubricating oil, and starter mechanics. Weekly checks should include checking fuel oil level, testing starter batteries for optimal voltage (ideal above 12.6V), and checking engine coolant density. Every 250 hours or 6 months, an active engine service is mandatory: replace fuel filters, oil filters, and perform chemical bypass flush of crankcase breathing ports. Under Hanuwant Power System Co.'s Annual Maintenance Contract (AMC), we cover complete multi-point checks using heavy caliber calibration gear, securing 100% start-up reliability.",
-    author: "Harish Sharma (Lead Service Lead)",
+    author: "Nikhil Garg",
     publishDate: "May 24, 2026",
     readTime: "7 min read",
     category: "Maintenance"
@@ -227,7 +227,7 @@ export const BLOGS: BlogArticle[] = [
     title: "Understanding CPCB IV+ Emission Norms for Commercial Gensets",
     excerpt: "India's newest environmental mandates are strict. Learn what CPCB IV+ compliance implies for your commercial building.",
     content: "The Ministry of Environment, Forest, and Climate Change has enforced highly progressive CPCB IV+ norms to limit oxides of Nitrogen (NOx) and Particulate Matter (PM) emissions from diesel engines. Hanuwant Power System Co. is committed to absolute environmental compliance. Our entire rental and sales line of diesel generator assemblies is loaded with acoustic canopies, Exhaust Gas Recirculation (EGR) valves, and customized diesel particulate silencers. Not only do compliant units guarantee legal operation in Delhi NCR during GRAP stages, they also use up to 10% less fuel due to advanced electronic fuel injection systems.",
-    author: "Devendra Singh (EHS Specialist)",
+    author: "Nikhil Garg",
     publishDate: "June 01, 2026",
     readTime: "6 min read",
     category: "Safety"
