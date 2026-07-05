@@ -14,6 +14,11 @@ import redLitGen from "../assets/images/red_lit_generator_1780219748044.png";
 import silentBlackRed from "../assets/images/silent_black_red_1780228759679.png";
 import silentSilverRed from "../assets/images/silent_silver_red_1780228778764.png";
 
+import kirloskarTrailer from "../assets/images/kirloskar_trailer_1783250686094.png";
+import hyundaiHpsKirloskar from "../assets/images/hyundai_hps_kirloskar_1783250702836.png";
+import jaksonTransport from "../assets/images/jakson_transport_1783250721258.png";
+import cumminsEngine from "../assets/images/cummins_engine_1783250734995.png";
+
 interface GalleryItem {
   id: string;
   category: "all" | "Heavy_Industry" | "Hospital_Power" | "Infrastructure" | "Exhibition_Events";
@@ -90,6 +95,42 @@ export default function SiteGallery() {
       location: "Sanjay Nagar Govt Clinic, Ghaziabad",
       imgUrl: silentSilverRed,
       specs: "Ashok Leyland LEYPOWER 250 KVA prime backup unit"
+    },
+    {
+      id: "gal-7",
+      category: "Infrastructure",
+      title: "Kirloskar 125 KVA Mobile Deployment",
+      tag: "Mobile Power Unit",
+      location: "Sec-18 commercial hub, Noida",
+      imgUrl: kirloskarTrailer,
+      specs: "Kirloskar Powergen 125 KVA silent generator on highway trailer"
+    },
+    {
+      id: "gal-8",
+      category: "Heavy_Industry",
+      title: "Kirloskar Prime Power Installation",
+      tag: "Corporate Showroom",
+      location: "Hyundai Showroom Grid, Ghaziabad",
+      imgUrl: hyundaiHpsKirloskar,
+      specs: "Kirloskar Powergen silent canopy installation with AMF Panel"
+    },
+    {
+      id: "gal-9",
+      category: "Infrastructure",
+      title: "Jakson 250 KVA Transport Fleet",
+      tag: "Site Transit",
+      location: "Eastern Peripheral Expressway, NCR",
+      imgUrl: jaksonTransport,
+      specs: "Jakson silent generator transit on flatbed cargo carrier"
+    },
+    {
+      id: "gal-10",
+      category: "Heavy_Industry",
+      title: "Cummins 500 KVA Engine Room View",
+      tag: "Industrial Block",
+      location: "Loni road industrial complex, Ghaziabad",
+      imgUrl: cumminsEngine,
+      specs: "Cummins high capacity electronic governor engine block layout"
     }
   ];
 
