@@ -12,9 +12,9 @@ export default function WhyChooseUs() {
     {
       id: "stat-1",
       icon: <Wrench className="h-6 w-6 text-[#E63329]" />,
-      value: "15+",
+      value: "35+",
       label: "Years of Experience",
-      subtext: "Delivering diesel setups in NCR since 2009"
+      subtext: "Delivering diesel setups in NCR since 1991"
     },
     {
       id: "stat-2",
@@ -123,7 +123,7 @@ export default function WhyChooseUs() {
           </div>
 
           <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
-            For almost two decades, we have been Noida & Ghaziabad's premier diesel power ally. We don't just lease machinery — we configure comprehensive electrical networks that guarantee safety, reliability, and peace of mind.
+            For over three decades, we have been Noida & Ghaziabad's premier diesel power ally. We don't just lease machinery — we configure comprehensive electrical networks that guarantee safety, reliability, and peace of mind.
           </p>
 
           {/* 2x2 Stats Grid with glowing panels */}
