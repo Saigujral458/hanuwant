@@ -147,8 +147,8 @@ export default function Footer({ onOpenQuote }: FooterProps) {
 
               <li className="flex items-center gap-2 overflow-hidden truncate">
                 <Mail className="h-4 w-4 text-[#E63329] shrink-0" />
-                <a href="mailto:hanuwantpowersystem@gmail.com" className="text-gray-400 hover:text-white transition-colors block select-all">
-                  hanuwantpowersystem@gmail.com
+                <a href="mailto:info@hanuwantpower.com" className="text-gray-400 hover:text-white transition-colors block select-all">
+                  info@hanuwantpower.com
                 </a>
               </li>
 
