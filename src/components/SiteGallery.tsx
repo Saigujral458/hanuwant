@@ -7,7 +7,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Eye, MapPin, Tag, X, Flame } from "lucide-react";
 
-import kirloskarTrailer from "../assets/images/kirloskar_trailer_1783250686094.png";
+import kirloskarTrailer from "../assets/images/enhanced_rental_trailer_fleet.png";
 import hyundaiHpsKirloskar from "../assets/images/hyundai_hps_kirloskar_1783250702836.png";
 import jaksonTransport from "../assets/images/jakson_transport_1783250721258.png";
 import cumminsEngine from "../assets/images/cummins_engine_1783250734995.png";

@@ -5,7 +5,7 @@
 
 import { motion } from "motion/react";
 import { Wrench, Users, Settings, Clock, CheckCircle } from "lucide-react";
-import trailerGen from "../assets/images/trailer_gen_logo_1783249532655.png";
+import trailerGen from "../assets/images/enhanced_rental_trailer_fleet.png";
 
 export default function WhyChooseUs() {
   const statsList = [
